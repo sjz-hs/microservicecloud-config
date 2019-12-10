@@ -1,0 +1,12 @@
+spring: 
+  profiles: 
+   active: 
+    - dev
+---
+spring: 
+ profiles: dev
+ application: dev-atguigu
+---
+spring: 
+ profiles: test 
+ application: test-atguigu
